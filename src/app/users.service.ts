@@ -19,10 +19,10 @@ export class UsersService {
     this.counterService.count();
   }
 
-  getActiveUsers(){
+  getActiveUsers(){ //Not strictly needed, arrays could be accessed directly
     return this.activeUsers;
   }
-  getInactiveUsers(){
+  getInactiveUsers(){ //Not strictly needed, arrays could be accessed directly
     return this.inactiveUsers;
   }
 
